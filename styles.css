@@ -1,0 +1,135 @@
+header {
+    display: flex;
+    z-index:3;
+    align-items: center;
+    background-color: #f9f9f9 ;
+    position:fixed;
+    top:0;
+    left:0;
+}
+body{
+    margin: 0px;
+    background-color: #862633;
+}
+#header-img {
+    height: 70px;
+    margin: 20px;
+}
+#nav-bar{
+    background-color:aliceblue;
+    z-index:99;
+    width:100vw;
+}
+.hero-img{
+    height: 560px;
+    width: 1920px;
+}
+ul {
+    display: flex;
+    margin-right: 20px;
+    margin-left:200px;
+}
+
+li {
+
+    white-space:nowrap;
+    margin: 10px;
+    padding: 10px;
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+    display:flex;
+    color:#000000;
+    font-family: 'Rajdhani', sans-serif;
+}
+a:hover{
+    color:#862633;
+}
+.nav-link{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:bold;
+}
+.hero-container{
+    margin-top:110px;
+
+}
+.hero-container>p{
+    display: flex;
+    position:absolute;
+    top:160px;
+    left:400px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 120px;
+    color:aliceblue;
+    
+}
+#video{
+    width : 560px;
+    height :315px;
+    display:block;
+    margin: 80px auto;
+    
+}
+.bike-colors{
+    display:flex;    
+    justify-content:space-around;
+    max-width:1000px;
+    margin:auto;
+}
+.bike-color{   
+    height:150px;
+    margin:20px;   
+}
+#specs-container{
+    padding:10px 0em;
+    background-color:aliceblue;
+}
+#specs>p{
+    margin:1em;
+    font-size:20;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:bold;
+}
+#form{
+    margin-top:30px;
+    padding:20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:bold;
+    text-align:center;
+    background-color:aliceblue;
+}
+@media (max-width:500px){
+ul{
+    margin-left:0px;
+    padding:0px;
+}
+#header-img{
+    width:70px;
+    height:30px
+}
+.hero-container{
+    margin-top:90px;
+    overflow:hidden;
+}
+.hero-img{
+    max-width:500px;
+    height:200px;
+}
+.bike-colors{
+    flex-wrap:wrap;
+}
+.bike-color{
+    width:250px;
+}
+#video{
+    width:250px;
+    height:150px;
+}
+.hero-container>p{
+    top:120px;
+    left:140px;
+    font-size:30px
+}
+
+}
